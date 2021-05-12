@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C443FE14264A78070070C1DD /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443FE13264A78070070C1DD /* Tip.swift */; };
+		C443FE16264A787F0070C1DD /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443FE15264A787F0070C1DD /* TipsView.swift */; };
 		C4B97A1826367C40004CD748 /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B97A1726367C40004CD748 /* TrekrApp.swift */; };
 		C4B97A1A26367C40004CD748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B97A1926367C40004CD748 /* ContentView.swift */; };
 		C4B97A1C26367C44004CD748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B97A1B26367C44004CD748 /* Assets.xcassets */; };
 		C4B97A1F26367C44004CD748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B97A1E26367C44004CD748 /* Preview Assets.xcassets */; };
+		C4B97A2926367FE4004CD748 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = C4B97A2726367FE4004CD748 /* tips.json */; };
+		C4B97A2A26367FE4004CD748 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C4B97A2826367FE4004CD748 /* locations.json */; };
+		C4B97A2D26368F1A004CD748 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B97A2C26368F1A004CD748 /* Location.swift */; };
+		C4B97A3026369633004CD748 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B97A2F26369633004CD748 /* Locations.swift */; };
+		C4F5D0502637DA1700418A6D /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5D04F2637DA1700418A6D /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C443FE13264A78070070C1DD /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		C443FE15264A787F0070C1DD /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		C4B97A1426367C40004CD748 /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B97A1726367C40004CD748 /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
 		C4B97A1926367C40004CD748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4B97A1B26367C44004CD748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B97A1E26367C44004CD748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4B97A2026367C44004CD748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B97A2726367FE4004CD748 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		C4B97A2826367FE4004CD748 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		C4B97A2C26368F1A004CD748 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C4B97A2F26369633004CD748 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		C4F5D04F2637DA1700418A6D /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				C4B97A1726367C40004CD748 /* TrekrApp.swift */,
+				C4F5D04F2637DA1700418A6D /* WorldView.swift */,
+				C443FE13264A78070070C1DD /* Tip.swift */,
+				C443FE15264A787F0070C1DD /* TipsView.swift */,
 				C4B97A1926367C40004CD748 /* ContentView.swift */,
+				C4B97A2C26368F1A004CD748 /* Location.swift */,
+				C4B97A2F26369633004CD748 /* Locations.swift */,
 				C4B97A1B26367C44004CD748 /* Assets.xcassets */,
 				C4B97A2026367C44004CD748 /* Info.plist */,
+				C4B97A2826367FE4004CD748 /* locations.json */,
+				C4B97A2726367FE4004CD748 /* tips.json */,
 				C4B97A1D26367C44004CD748 /* Preview Content */,
 			);
 			path = Trekr;
@@ -128,6 +149,8 @@
 			files = (
 				C4B97A1F26367C44004CD748 /* Preview Assets.xcassets in Resources */,
 				C4B97A1C26367C44004CD748 /* Assets.xcassets in Resources */,
+				C4B97A2A26367FE4004CD748 /* locations.json in Resources */,
+				C4B97A2926367FE4004CD748 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B97A1A26367C40004CD748 /* ContentView.swift in Sources */,
+				C4B97A2D26368F1A004CD748 /* Location.swift in Sources */,
+				C4F5D0502637DA1700418A6D /* WorldView.swift in Sources */,
+				C443FE14264A78070070C1DD /* Tip.swift in Sources */,
+				C443FE16264A787F0070C1DD /* TipsView.swift in Sources */,
+				C4B97A3026369633004CD748 /* Locations.swift in Sources */,
 				C4B97A1826367C40004CD748 /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = S2ZX62N2EP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Trekr/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = S2ZX62N2EP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Trekr/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
